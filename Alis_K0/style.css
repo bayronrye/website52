@@ -1,8 +1,9 @@
 #a29 {
     font-family: 'Courier New', monospace;
-    color: #eb97c1;
-    font-size: 16px;
-    border: 2px solid #a29; 
-    padding: 4px;
-    border-radius: 4px;
-  }
+    color: #d16c9f;
+    font-size: 15px;
+    border: 2px solid rgb(247, 160, 213);
+    padding: 5px 10px; 
+    border-radius: 3px;
+    background-color: #fde5ee;
+}
