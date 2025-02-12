@@ -1,0 +1,10 @@
+#a32 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.856); 
+    background-color: black; 
+    border: 3px solid royalblue; 
+    padding: 10px; 
+    display: inline-block; 
+    font-family: 'Arial', sans-serif;
+}
