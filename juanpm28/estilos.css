@@ -1,0 +1,10 @@
+#a38 {
+  list-style-type: "★ ";
+}
+
+
+#a38 a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+  text-decoration: none;
+  color: darkorange;
+}
