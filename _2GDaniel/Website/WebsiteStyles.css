@@ -17,12 +17,6 @@ nav a {
     margin-right: 25px;
 } 
 
-footer{
-    text-align: center;
-    position:relative;
-    bottom: 0;
-}
-
 p{
     width:920px;
 }
@@ -70,5 +64,11 @@ aside-principal{
 
 .img-juegos{
     width: 400px;
+    border-radius: 10px;
+}
+
+.videos{
+    resize: both;
+    width: 600px;
     border-radius: 10px;
 }
