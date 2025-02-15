@@ -3,3 +3,43 @@
     color: rgb(0, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la imagen */
+img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Estilo para los enlaces */
+a {
+    display: block;
+    text-decoration: none; 
+    color: #333; 
+    font-size: 18px; 
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007BFF;
+    border-radius: 5px; 
+    width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Efecto hover para los enlaces */
+a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+
+.links-container {
+    margin-top: 30px; 
+}
