@@ -1,8 +1,28 @@
+/* index.html */
 h1 {
+    background-color: #ff9851;
+    color: blue;
+    text-align: center;
+}
+
+/* nombre en la lista */
+#a47 {
+    list-style-type: '♡𝒟';
     background-color: papayawhip;
 }
 
-#a47 {
-    list-style-type: '𝒟';
-    background-color: papayawhip;
+/* urls */
+.container .item_1 {
+    font-size: 22px;
+    color: red;
+}
+.container .item_2 {
+    font-size: 22px;
+    color: green;
+    text-align: center;
+}
+.container .item_3 {
+    font-size: 22px;
+    color: blue;
+    text-align: right;
 }
