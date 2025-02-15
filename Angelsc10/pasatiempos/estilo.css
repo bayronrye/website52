@@ -1,0 +1,50 @@
+/* CSS index.html */
+h1 {
+    background-color: papayawhip;
+    display: inline;
+    color: blue;
+    border-style: dashed;
+    font-size: 25px
+}
+li {
+    text-decoration: underline;
+    font-size: 25px;
+    color: black;
+}
+div {
+    float: right;
+}
+nav {
+    font-size: 20px;
+}
+p.item {
+    font-size: 20px;
+}
+p.item1 {
+    font-size: 20pxpx;
+}
+
+/* CSS anime.html */
+h1.anime {
+    font-size: 25px;
+}
+
+/* videojuegos.html */
+h1.juegos {
+    font-size: 25px;
+}
+
+/* league_of_legends.html */
+h1.lol {
+    font-size: 25px;
+}
+
+/* futbol.html */
+h1.futbol {
+    font-size: 25px;
+}
+
+/* musica.html */
+h1.musica {
+    font-size: 25px;
+}

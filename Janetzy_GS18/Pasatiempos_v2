@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Los pastiemos del autor de la páguina">
+    <title>Segunda página Demo</title>   
+</head>
+<style>
+    .estetica{background-color:#091581;
+        font-family: sans-serif; 
+        color: white;
+        text-align: center;}
+
+        h1, nav{margin:0;
+            padding:0;}
+
+        nav {background-color: #091581;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;}
+
+        nav a {color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: sans-serif;}
+
+        nav a:hover {text-decoration: underline;}
+</style>
+<body>
+    <header>
+        <h1 class="estetica">Pasatiempos</h1>
+        <nav>
+            <a href="lectura.html">Lectura</a>
+            <a href="peliculas.html">Peliculas</a>
+            <a href="dibujo.html">Dibujo</a>
+            <a href="musica.html">Música</a>
+            <a href="canto.html">Canto</a>    
+        </nav>
+    </header>
+    <main>
+        <article>   
+                <header>
+                    <h2>Sobre mí</h2>
+                </header>
+                <p>Ultima actualizacion fue <time datatiem="2025-02014T21:00">14/Feb/2025</time></p>
+                
+                <p>Nací el 18 de mayo del 2004 en Monterrey. Vivo con mi familia, que son mi madre, mi padre y mis 3 hermanos menores, somos lo que se considera una familia numerosa.</p>                
+                <p>Actualmente me encuentro cursando el 5° semestre en <abbr title="Facultad de Contaduría Pública y Administración">FACPYA</abbr> en la carrera de LTI. Tengo contemplado estudiar una segunda carrera al terminar la actual.</p>
+                
+                <aside>
+                    <a href="https://facpya.uanl.mx/">Paguina de Facpya</a>
+                </aside>
+
+                <figure>
+                    <img src="https://images.pexels.com/photos/6147365/pexels-photo-6147365.jpeg?auto=compress&cs=tinysrgb&w=500&h=750&dpr=1" alt="Cuatro personas uniendo piezas de un rompecabezas">
+                    <figcaption>Armar un rompecabezas</figcaption>
+                </figure> 
+
+                
+                <P style="text-align: center;"><strong><em>"La pasión es energía. Siente el poder que proviene de enfocarte en lo que te entusiasma."</em> — Oprah Winfrey</strong></p>
+                <p>Mi dia a dia siempre tendra integardo realizar algunos de mis pasatiempos, es una parte muy escencial.</p>
+                <footer>
+                    <hr>
+                </footer>
+
+                <section>
+                    <h2>¿Por qué todos necesitamos tener un pasatiempo?</h2>
+                    <blockquote cite="https://selecciones.com.mx/por-que-todos-necesitamos-tener-un-pasatiempo-la-ciencia-lo-explica/">
+                        <mark>Los pasatiempos no son solo una forma de entretenimiento, sino una herramienta poderosa para mejorar tu salud física y mental.</mark>
+                    </blockquote>
+
+                    <div>
+                        <p style="color:blue;"><b><i>Beneficios:</i></b></p>
+                    </div>
+                    <dl>
+                        <dt><b>Mentales</b></dt>
+                        <dd>Reducen el estrés, estimulan el cerebro, aumentan la creatividad y mejoran la autoestima.</dd>
+                        <dt><b>Físicos</b></dt>
+                        <dd>Mejoran la coordinación, la condición física y ayudan a relajar el cuerpo.</dd>
+                        <dt><b>Sociales</b></dt>
+                        <dd>Fomentan la conexión con otros, mejoran la comunicación y desarrollan el trabajo en equipo.</dd>
+                        <dt><b>Personales y profesionales</b></dt>
+                        <dd>Favorecen el aprendizaje, la disciplina y pueden convertirse en una fuente de ingresos.</dd>
+                    </dl>
+                </section>
+
+                <footer>
+                    <hr>
+                </footer>
+        </article>
+    </main>
+
+    <footer class="estetica" style="padding: 5px;">
+        <address>
+            <p>
+                <small>Aviso. Esta paguina fue creda por fines propios educativos.</small>
+                <br><br>
+                Sitio web desarrollado por: Janetzy-GS18 
+                <br><br>
+                Redes sociales:<br>
+            </p>
+            <a style="color:white;"href="https://www.facebook.com/share/1BKQvXviUg/">Facebook<a/>
+            
+            </address>
+    </footer>
+</body>
+</html> 
