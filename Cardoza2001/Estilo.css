@@ -1,6 +1,11 @@
-#a34 {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: rgb(87, 26, 228);
-    font-weight: bold;
+/* index.html */
+h1 {
+    background-color: #5e1fdd;
+    color: rgba(51, 118, 212, 0.612);
+    text-align: center;
+}
+
+/* nombre en la lista */
+#a01 {
+    background-color: rgb(102, 26, 243);
 }
