@@ -28,10 +28,6 @@ nav a {
     transition: background 0.3s ease;
 }
 
-nav a:hover {
-    background-color: #9c2914;
-}
-
 form {
     background: white;
     padding: 20px;
