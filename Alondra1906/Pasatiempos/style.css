@@ -178,3 +178,9 @@ div {
     gap: 20px;
     text-align: center; 
 }
+
+/* página formulario */
+input {
+    border: 2px dotted rgba(151, 86, 236, 0.877);
+    border-radius: 5px;
+}
