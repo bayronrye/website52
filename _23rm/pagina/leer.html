@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustos de lectura</title>
+    <style>
+        .titulos {
+            background-color: rgb(84, 75, 75);
+            text-align: center;
+            border-radius: 10px;
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .subtitulos{
+            text-align: center;
+            color: rgb(46, 126, 126);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        body{
+            background-color: beige;
+        }
+        footer{
+            text-align: center;
+            position:relative;
+        }
+        .enlaces{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: rgb(126, 108, 136);
+            border-radius: 10px;
+            color: rgb(78, 117, 117);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .video-formato {
+            display: flex;
+            justify-content: center;
+        }
+        .audio-formato {
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulos" style="margin-bottom: 0;">Gustos de lectura</h1>
+    </header>
+    <main>
+        <h2 class="enlaces" style="margin-top: 0;"><a href="principal.html">Página de hobbies</a></h2>
+        <article>
+            <header>
+                <h3 class="subtitulos">En esta página hablaré sobre mis libros favoritos</h3>
+            </header>
+            <div class="video-formato">
+                <video width="500" height="315" controls src="https://videos.pexels.com/video-files/1793334/1793334-hd_1920_1080_30fps.mp4"></video>
+            </div>
+            <div class="audio-formato">
+                <audio controls src=""></audio>
+            </div>
+            <h4 style="text-align: center;">No soy un gran fanatico de la leer, de hecho casi siempre que lo hago es de forma obligada y sé que muy probablemente me estoy perdiendo de lecturas muy impresionantes. Aún así, las pocas veces que leo algun libro que me guste lo encuentro muy reconfortante, es por esto que lo incluí dentro de mis hobbies, ya que cuando lo hago con gusto es algo fascinante.</h4>
+            <table>
+                <thead>
+                    <th>Nombre del libro</th>
+                    <th>Autor</th>
+                    <th>Fecha de públicación</th>
+                    <th>Calificación 0-10</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Los juegos del hambre</td>
+                        <td>Suzanne Collins</td>
+                        <td>2008</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Harry Potter and the Philosopher’s Stone</td>
+                        <td>J.K. Rowling</td>
+                        <td>1997</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>It</td>
+                        <td>Stephen King</td>
+                        <td>1986</td>
+                        <td>9.5</td>
+                    </tr>
+                    <tr>
+                        <td>The Lord of the Rings: The Fellowship of the Ring</td>
+                        <td>J.R.R. Tolkien</td>
+                        <td>1954</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <hr>
+    </main>
+    <aside>
+    </aside>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: PRMM</p>
+            <p><time datetime="2025-02-14T14:47">Al 14 de febrero del 2025</time></p>
+            <p>Información de contacto:</p>
+            <a href="Facebook">Facebook</a>
+            <a href="Instagram">Instagram</a>
+        </address>
+    </footer>
+</body>
+</html>
