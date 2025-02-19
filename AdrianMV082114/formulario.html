@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            color: #003366;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #003366;
+        }
+        input[type="text"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #002244;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Datos</h2>
+        <form action="#" method="post">
+            <!-- Nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <!-- Fecha de Nacimiento -->
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <!-- País de Residencia -->
+            <label for="pais">¿En qué país vives?</label>
+            <input type="text" id="pais" name="pais" required>
+
+            <!-- Comida Favorita -->
+            <label for="comida">¿Cuál es tu comida favorita?</label>
+            <input type="text" id="comida" name="comida" required>
+
+            <!-- Lugar de Estudios -->
+            <label for="estudios">¿En dónde estudias?</label>
+            <select id="estudios" name="estudios" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="FACPYA">FACPYA</option>
+                <option value="FIME">FIME</option>
+                <option value="FOD">FOD</option>
+                <option value="FM">FM</option>
+            </select>
+
+            <!-- Botón de Enviar -->
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

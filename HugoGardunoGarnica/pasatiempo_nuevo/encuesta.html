@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas</title>
+    <link rel="stylesheet" href="../pasatiempo_nuevo/estilos_encuesta.css">
+</head>
+<body>
+    <a href="../pasatiempo_nuevo/pasatiempos_nuevo.html">Volver</a>
+    <hr>
+    <h1>Encuesta de satisfacción</h1>
+    <form action="">
+        <div>
+            <label for="nombre">Tu nombre: </label>
+            <input type="text" name="Nombre" id="nombre">
+        </div>
+        <div>
+            <br><label for="contra">Tu contraseña: </label>
+            <input type="password" name="Contra" id="contra">
+        </div>
+        <div>
+            <br><label for="fecha">Fecha de nacimiento: </label>
+            <input type="date" name="Fecha" id="fecha">
+        </div>
+        <div>
+            <br><label for="opinion">Mi página te pareció: </label>
+            <select name="Opinion" id="opinion">
+                <option value="1">Buena</option>
+                <option value="2">Regular</option>
+                <option value="3">Horrible</option>
+            </select>
+        <div>
+            <br><label for="foto">Foto de tu animal favorito: </label>
+            <input type="file" name="Foto" id="foto">
+        </div>
+        <div>
+            <br><label for="color">Tu color favorito: </label>
+            <input type="color" name="Color" id="color">
+        </div>
+        <div>
+            <br><button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
