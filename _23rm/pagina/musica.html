@@ -21,12 +21,11 @@
         }
         body{
             background-color: beige;
+            font-family: 'Times New Roman', Times, serif;
         }
         footer{
             text-align: center;
-            position:fixed;
-            bottom: 0;
-            width: 100%;
+            position:relative;
         }
         .enlaces{
             display: flex;
@@ -39,15 +38,97 @@
             font-weight: bold;
             text-decoration: underline;
         }
+        .txtcentrado{
+            text-align: center;
+        }
+        li{
+            font-weight: bold;
+        }
+        img{
+            width: 280px;
+            height: 320px;
+        }
+        .canciones{
+            display:flex;
+            align-items: center;
+        }
+        .canciones li{
+            margin-left: 100px;    
+        }
+        .cancionestitulo{
+            display: flex;
+            align-items: center;
+        }
+        .cancionestitulo h4{
+            margin: auto;
+        }
+        main{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 class="titulos" style="margin-bottom: 0;">Gustos musicales</h1>
+        <h2 class="enlaces" style="margin-top: 0;"><a href="principal.html">Página de hobbies</a></h2>
     </header>
     <main>
-        <h2 class="enlaces" style="margin-top: 0;"><a href="principal.html">Página de hobbies</a></h2>
-        
+        <p class="txtcentrado">Me considero una persona a la que le gusta escuchar todo tipo de musica, no me cierro en un solo género o artista. Me gusta disfrutar la musica y creo que esta es la mejor manera de hacerlo, ya que si estas abierto a cualquier género puedes descubir canciones que valen demasiado la pena.</p>
+        <article>
+            <header>
+                <h3 class="subtitulos">Artistas favoritos</h3>
+            </header>
+            <p class="txtcentrado">En cuanto a mis artistas favoritos yo consideraré solo a 5 para no hacer una lista tan larga. En esta incluire desde solistas hasta grupos y no tendrán un género en especifico. Por último esta lista esta basada en mi <strong>Spotify rewind</strong> del año pasado.</p>
+            <ol>
+                <div class="cancionestitulo">
+                <li>Siddhartha</li>
+                <h4>Canciones favoritas del artista</h4>
+                </div>
+                <div class="canciones">
+                    <figure>
+                        <img src="https://ca-times.brightspotcdn.com/dims4/default/37ea625/2147483647/strip/true/crop/6720x4479+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc4%2F9d%2F3c970f5e4396ba7d8d1a29efdc8f%2Fsid.jpg" alt="Siddhartha">
+                    </figure>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=ZarEe39WOYY">Pelicula</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=mfhIs1lABqg">Buscandote</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=QoB5Gpq44OM">Respiro</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=eJwXivMnxcY">00:00</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=drhRI2mpvo8">Cada vez que vuelvas</a></li>
+                    </ul>
+                </div>
+                <li>Ghost</li>
+                <div class="canciones">
+                    <figure>
+                        <img src="https://cdn-images.dzcdn.net/images/artist/4cfad4049e78f8055bb8b5c413bb7c83/1900x1900-000000-80-0-0.jpg" alt="Ghost">
+                    </figure>
+                </div>
+                <li>Maneskin</li>
+                <div class="canciones">
+                    <figure>
+                        <img src="https://i.scdn.co/image/ab6761610000e5eb46d0db8a86fda630ec12401f" alt="Maneskin">
+                    </figure>
+                </div>  
+                <li>Don Omar</li>
+                <div class="canciones">
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/I/51rlje9zHXL._AC_UF894,1000_QL80_.jpg" alt="Don Omar">
+                    </figure>
+                </div>
+                <li>Elias Medina</li>
+                <div class="canciones">
+                    <figure>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4Y-SRWxLUEb4_gSsoIcWbUeD8-nhYEkEqsc3QIqSt4vXJ6JLaq_9wiCEH8mviVIXoj5epmNLB-KKxZv0XElu65XnFUFRJQKpLSEESTXL8cyOKksqnHLWObx1f3S4TQXcUQ1eoiB0564w/s1600/Elias-Medina-Compositor.jpg" alt="Elias">
+                    </figure>
+                </div>
+            </ol>
+        </article>
+        <article>
+            <header>
+                <h3 class="subtitulos">Géneros musicales favoritos</h3>
+            </header>
+        </article>
+        <hr>
     </main>
     <aside>
     </aside>
