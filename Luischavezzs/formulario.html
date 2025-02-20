@@ -6,7 +6,7 @@
   <title>Formulario Azulito</title>
   <style>
     body {
-      background-color: #e0f7ff; /* Fondo azul claro */
+      background-color: #007BFF; 
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -55,6 +55,25 @@
     input[type="submit"]:hover {
       background-color: #0056b3;
     }
+ 
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .button-group a {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      text-align: center;
+      width: 48%;
+      transition: background-color 0.3s;
+    }
+    .button-group a:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
@@ -81,6 +100,10 @@
 
       <input type="submit" value="Enviar">
     </form>
+    <div class="button-group">
+      <a href="index.html">Regresar al Inicio</a>
+      <a href="pasatiempos.html">Ir a Pasatiempos</a>
+    </div>
   </div>
 </body>
 </html>
