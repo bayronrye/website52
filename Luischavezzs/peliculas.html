@@ -3,7 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tops Peliculas</title>
+    <style>
+        aside {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        aside img {
+            width: 300px;      /* Ancho fijo */
+            height: 200px;     /* Altura fija para uniformidad */
+            object-fit: cover; /* Recorta la imagen para llenar el contenedor sin deformarse */
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        aside img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <header>   
