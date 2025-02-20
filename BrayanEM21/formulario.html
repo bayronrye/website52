@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Usuario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .estado-civil {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registro de Usuario</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="color">Color Favorito:</label>
+            <input type="text" id="olor" name="olor" required>
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="red-social">Red Social Favorita:</label>
+            <select id="red-social" name="red-social">
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="tiktok">TikTok</option>
+                <option value="otra">Otra</option>
+            </select>
+
+            <label>Estado Civil:</label>
+            <div class="estado-civil">
+                <input type="radio" id="soltero" name="estado-civil" value="soltero" required>
+                <label for="soltero">Soltero</label>
+
+                <input type="radio" id="casado" name="estado-civil" value="casado" required>
+                <label for="casado">Casado</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
