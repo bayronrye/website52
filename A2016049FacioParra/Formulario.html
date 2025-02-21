@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <a href="index.html">Volver</a>
+    <hr>
+    <ol>
+        <li>Hola</li>
+    </ol>
+    <h1>Encuesta de Satisfacción al Usuario</h1>
+    <form action="">
+        <div>
+            <label for="nombre">Cual es tu nombre: </label>
+            <input type="text" name="Nombre" id="nombre">
+        </div>
+        <div>
+            <br><label for="contra">Escribe tu contraseña: </label>
+            <input type="password" name="Contra" id="contra">
+        </div>
+        <div>
+            <br><label for="fecha">Cual es tu fecha de nacimiento: </label>
+            <input type="date" name="Fecha" id="fecha">
+        </div>
+        <div>
+            <br><label for="opinion">Que piensas de mi pagina: </label>
+            <select name="Opinion" id="opinion">
+                <option value="1">Buena</option>
+                <option value="2">Regular</option>
+                <option value="3">Horrible</option>
+            </select>
+        <div>
+            <br><label for="foto">Foto de tu animal favorito: </label>
+            <input type="file" name="Foto" id="foto">
+        </div>
+        <div>
+            <br><label for="color">Tu color favorito: </label>
+            <input type="color" name="Color" id="color">
+        </div>
+        <div>
+            <br><button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
