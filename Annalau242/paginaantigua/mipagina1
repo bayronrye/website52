@@ -1,0 +1,152 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Página de Presentación</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+            color: #4a4a4a;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff99cc, #ff66b2);
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 0 0 30px 30px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #ff4081;
+            border-bottom: 2px solid #ff99cc;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li::before {
+            content: '🌸 ';
+        }
+
+        a {
+            color: #ff4081;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #ff66b2;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 30px 30px 0 0;
+            margin-top: 20px;
+        }
+
+       
+        .foto-gata-seccion {
+            text-align: center;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffebf5;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        .foto-gata {
+            width: 80%;
+            max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        💕 Ana Ortiz 💕
+        <p>Estudiante de Tecnologías de la Información, en <abbr title="Facultad de Contaduría Pública y Administración">FACPYA</abbr> 🐘</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>En mi tiempo libre, disfruto de una variedad de actividades que me permiten desconectar y recargar energías. Me encanta jugar videojuegos, disfrutar de una buena película, escuchar música, y mantenerme activa en el gimnasio. También soy una gran aficionada a los deportes y tengo una gran debilidad por los gatos.</p>
+        </section>
+
+        <section>
+            <h2>Mis intereses</h2>
+            <ul>
+                <li>🎀 Videojuegos</li>
+                <li>🌸 Diseño web</li>
+                <li>💪 Fitness y salud</li>
+                <li>🎶 Música y cine</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Creatividad</li>
+                <li>Buena comunicación</li>
+                <li>Análisis y estrategia</li>
+                <li>Trabajo en equipo</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Mis Proyectos</h2>
+            <p>Estoy creando un blog personal con <code>HTML</code> y <code>CSS</code> para compartir mi pasión por la tecnología y el diseño web. También he desarrollado una aplicación de lista de tareas con un diseño estético y femenino. ✨</p>
+        </section>
+
+        <section class="foto-gata-seccion">
+            <h2>Mi Gata 💕</h2>
+            <img src="https://i.imgur.com/POfO8HU.jpeg" alt="Mi gata hermosa" class="foto-gata">
+       
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>Conéctate conmigo en redes sociales:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/ana_ortiz_l/" target="_blank">Instagram</a></li>
+                <li><a href="mailto:Analauraortizlopez9@gmail.com">Enviar correo</a></li>
+                <li><a href="https://wa.me/528117875881" target="_blank">WhatsApp</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p><small>&copy; 2025 Ana Ortiz.</small></p>
+    </footer>
+</body>
+</html>

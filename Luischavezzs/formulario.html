@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Azulito</title>
+  <style>
+    body {
+      background-color: #007BFF; 
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      background-color: #fff;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #007BFF;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #007BFF;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="color"],
+    input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #007BFF;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+ 
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .button-group a {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      text-align: center;
+      width: 48%;
+      transition: background-color 0.3s;
+    }
+    .button-group a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Formulario Azulito</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" required>
+
+      <label for="color">Color Favorito:</label>
+      <input type="text" id="color" name="color" required>
+
+      <label for="animal">Foto de tu Animal Favorito:</label>
+      <input type="file" id="animal" name="animal" accept="image/*" required>
+
+      <label for="fecha">Fecha de Nacimiento:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="red">Red Favorita:</label>
+      <input type="text" id="red" name="red" required>
+
+      <input type="submit" value="Enviar">
+    </form>
+    <div class="button-group">
+      <a href="index.html">Regresar al Inicio</a>
+      <a href="pasatiempos.html">Ir a Pasatiempos</a>
+    </div>
+  </div>
+</body>
+</html>
