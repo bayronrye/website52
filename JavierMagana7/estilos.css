@@ -1,0 +1,12 @@
+input {
+    border: 3px dotted gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
