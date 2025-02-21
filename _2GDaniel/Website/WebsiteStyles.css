@@ -72,3 +72,20 @@ aside-principal{
     width: 600px;
     border-radius: 10px;
 }
+
+.formulario{
+    background-color:#ecececd2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.textos-formulario{
+    text-align: right;
+}
+
+.cajas-formulario{
+    text-align: center;
+    
+}
