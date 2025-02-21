@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario a31</title>
+    <style>
+        .titulos {
+            background-color: rgb(84, 75, 75);
+            text-align: center;
+            border-radius: 10px;
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        body{
+            background-color: beige;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .formulario{
+            text-align: center;
+            background-color: rgb(154, 194, 181);
+            margin-left: 400px;
+            margin-right: 400px;
+            border-radius: 20px;
+        }
+        footer{
+            text-align: center;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulos">FORMULARIO DE CONTACTO</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <form action="">
+                <h3 style="padding-top: 8px;">Datos personales</h3>
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" name="Nombre" id="nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">Télefono:</label>
+                    <input type="tel" name="Telefono" id="telefono">
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo:</label>
+                    <input type="text" name="Correo" id="correo">
+                </div>
+                <br>
+                <div>
+                    <label for="fechanacimiento">Fecha Nacimiento:</label>
+                    <input type="date" name="FechaNacimiento" id="fechanacimiento">
+                </div>
+                <br>
+                <div>
+                    <label for="género">Género:</label>
+                    <select name="Género" id="género">
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                        <option value="3">Otro</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="educación">Grado de estudio:</label>
+                    <select name="Educación" id="educación">
+                        <option value="1">Primaria</option>
+                        <option value="2">Secundaria</option>
+                        <option value="3">Preparatoria</option>
+                        <option value="4">Universidad</option>
+                        <option value="4">Maestria</option>
+                        <option value="4">Otro</option>
+                    </select>
+                </div>
+                <h3>Gustos</h3>
+                <div>
+                    <label for="color">Color favorito:</label>
+                    <input type="color" name="Color" id="color">
+                </div>
+                <br>
+                <div>
+                    <label for="redsocialfav">Red Social Favorita:</label>
+                    <select name="Redsocialfav" id="redsocialfav">
+                        <option value="1">Facebook</option>
+                        <option value="2">Instagram</option>
+                        <option value="3">Tik Tok</option>
+                        <option value="4">X</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="generomusica">Género de musica favorito:</label>
+                    <select name="Generomusica" id="generomusica">
+                        <option value="1">Rock</option>
+                        <option value="2">Metal</option>
+                        <option value="3">Pop</option>
+                        <option value="4">Banda</option>
+                        <option value="5">Baladas</option>
+                        <option value="6">Indie</option>
+                        <option value="6">Otro</option>
+                    </select>
+                </div>
+                <h3>Identificación</h3>                
+                <div>
+                    <label for="archivo">Agrega una identificación oficial:</label>
+                    <input type="file" name="Archivo" id="archivo">
+                </div>
+                <br>
+                <div>
+                    <label for="contraseña">Fruta favorita (la necesitarás para confirmar tu correo): </label>
+                    <input type="password" name="Contraseña" id="contraseña">
+                </div>
+                <h3>Calificación y comentarios</h3>
+                <div>
+                    <label for="rango">¿Cómo calificas la página?</label>
+                    <input type="range" name="Rango" id="rango">
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Dejanos un comentario:</label>
+                    <textarea name="Comentario" id="comentario"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Guardar">
+                </div>
+                <br>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: PRMM</p>
+            <p><time datetime="2025-02-19T00:05">Al 19 de febrero del 2025</time></p>
+            <p>Información de contacto:</p>
+            <a href="Facebook">Facebook</a>
+            <a href="Instagram">Instagram</a>
+        </address>
+    </footer>
+</body>
+</html>

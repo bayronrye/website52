@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primer sitio web de la clase FDW 52">
+    <title>Primer página web</title>
+    <style>
+        .titulos {
+            background-color: rgb(84, 75, 75);
+            text-align: center;
+            border-radius: 10px;
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .subtitulos{
+            text-align: center;
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        body{
+            background-color: beige;
+        }
+        footer{
+            text-align: center;
+            position:fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .lista{
+            display: flex;
+            flex-direction:row;
+            align-items:center;
+            gap: 15px;
+            justify-content: center;
+        }
+        .lista img{
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .enlaces{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: rgb(126, 108, 136);
+            border-radius: 10px;
+            color: rgb(78, 117, 117);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .division {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+        }
+        main {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: rgb(180, 175, 179);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulos" style="margin-bottom: 0;">Mis hobbies</h1>
+        <nav class="enlaces" style="margin-top: 0;">
+            <a href="../index.html">Página de evidencias</a>
+            <a href="cocinar.html">Cocinar</a>
+            <a href="leer.html">Leer</a>
+            <a href="musica.html">Musica</a>
+            <a href="videojuegos.html">Videojuegos</a>
+            <a href="seriesypeliculas.html">Series y películas</a>
+            <a href="formulario.html">Formulario de contacto</a>
+        </nav>
+    </header>
+    <div class="division">
+        <main>
+            <article>
+                <header>
+                    <h3 style="font-style: italic; font-weight: bold; font-size: large; text-align: center;">Estos son algunos de mis pasatiempos favoritos:</h3>
+                </header>
+                <section class="lista">
+                    <figure>
+                        <img src="https://cdn.pixabay.com/photo/2023/08/12/13/59/cat-8185712_1280.jpg" alt="Gato negro">
+                    </figure>
+                    <ul>
+                        <li style="color: rgb(212, 118, 118); text-align: center;">Cocinar🍳</li>
+                        <li style="color: rgb(134, 215, 134); text-align: center;">Leer📚</li>
+                        <li style="color: rgb(126, 126, 188); text-align: center;">Escuchar música🎶</li>
+                        <li style="color: rgb(191, 126, 191); text-align: center;">Los videojuegos🎮</li>
+                        <li style="color: rgb(205, 180, 132); text-align: center;">Ver videos, series o películas🎥</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+        <aside>
+            <h2 class="subtitulos">Más información</h2>
+            <p>Mi nombre es Patricio actualmente soy un estudiante de la carrera de LTI en <strong><abbr title="Facultad de Contaduria Pública y Administración">FACPYA</abbr></strong>. Estoy cursando la mitad de mi carrera y esta es una de las primeras versiones de esta página dónde hablo un poco sobre mis pasatiempos favoritos.<br> Además, de estudiar también tengo un trabajo en una tienda de conveniencia (Seven Eleven) donde realizo diversas actividades, pero la más común es ser cajero💵.</p>
+        </aside>
+    </div>
+    <hr>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: PRMM</p>
+            <p><time datetime="2025-02-14T14:47">Al 14 de febrero del 2025</time></p>
+            <p>Información de contacto:</p>
+            <a href="Facebook">Facebook</a>
+            <a href="Instagram">Instagram</a>
+        </address>
+    </footer>
+</body>
+</html>
