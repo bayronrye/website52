@@ -83,6 +83,11 @@ div {
     text-align: center; 
 }
 
+button {
+    background-color: rgb(156, 51, 241);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
 
 /* Pagina musica */
 .header1 {
