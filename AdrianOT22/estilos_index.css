@@ -1,0 +1,24 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-color: rgb(193, 215, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 50 px;
+    color: royalblue;
+}
+h2{
+    text-align: center;
+}
+nav a{
+    padding: 10px 20px;
+    background-color: rgb(228, 222, 255);
+}
+a{
+    text-decoration: none;
+}
+.alinear_pasatiempos{
+    list-style-position: inside;
+    text-align: right;
+}
