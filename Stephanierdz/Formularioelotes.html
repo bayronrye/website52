@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Elotes</title>
+</head>
+<body>
+    <h2>¿Prefieres el elote en vaso o entero?</h2>
+    <form action="/submit" method="POST">
+        <label>
+            <input type="radio" name="elote" value="entero"> Entero
+        </label><br>
+        <label>
+            <input type="radio" name="elote" value="desgranado"> En vaso
+        </label><br>
+        <br>
+        <h2>¿Prefieres mayonesa o crema?</h2>
+        <label>
+            <input type="radio" name="mayonesa_crema" value="mayonesa"> Mayonesa
+        </label><br>
+        <label>
+            <input type="radio" name="mayonesa_crema" value="crema"> Crema
+        </label><br>
+        <br>
+        <h2>¿Lo quieres con queso?</h2>
+        <label>
+            <input type="radio" name="queso" value="con_queso"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="queso" value="sin_queso"> No
+        </label><br>
+        <br>
+        <h2>¿Lo prefieres con queso blanco?</h2>
+        <label>
+            <input type="radio" name="queso_blanco" value="con_queso_blanco"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="queso_blanco" value="sin_queso_blanco"> No
+        </label><br>
+        <br>
+        <h2>¿Quieres que tenga mantequilla?</h2>
+        <label>
+            <input type="radio" name="mantequilla" value="con_mantequilla"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="mantequilla" value="sin_mantequilla"> No
+        </label><br>
+        <br>
+        <h2>¿Qué tipo de chile prefieres?</h2>
+        <label>
+            <input type="radio" name="chile" value="picoso"> Del que pica
+        </label><br>
+        <label>
+            <input type="radio" name="chile" value="no_picoso"> Del que no pica
+        </label><br>
+        <br>
+        <h2>¿Quieres que tenga limón?</h2>
+        <label>
+            <input type="radio" name="limon" value="con_limon"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="limon" value="sin_limon"> No
+        </label><br>
+        <br>
+        <h2>¿Quieres agregar frituras?</h2>
+        <label>
+            <input type="radio" name="frituras" value="con_frituras"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="frituras" value="sin_frituras"> No
+        </label><br>
+        <br>
+        <h2>¿Qué prefieres para acompañarlo?</h2>
+        <label>
+            <input type="radio" name="bebida" value="coca"> Coca
+        </label><br>
+        <label>
+            <input type="radio" name="bebida" value="agua"> Agua
+        </label><br>
+        <br>
+        <input type="submit" value="Terminar">
+    </form>
+</body>
+</html>

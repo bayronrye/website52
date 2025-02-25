@@ -3,13 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tops Peliculas</title>
+    <style>
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f5f5f5;
+          color: #333;
+          line-height: 1.6;
+        }
+     
+        header {
+          background-color: #28a745; 
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        header h1 {
+          margin-bottom: 10px;
+          font-size: 2.5rem;
+        }
+        header nav {
+          display: inline-block;
+          margin: 0 5px;
+        }
+        header nav a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 8px 12px;
+          transition: background-color 0.3s;
+        }
+        header nav a:hover {
+          background-color: #218838; 
+          border-radius: 4px;
+        }
+        
+        main {
+          background-color: #fff;
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        main h2 {
+          color: #28a745;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+        main ol {
+          margin-left: 20px;
+          font-size: 1.1rem;
+        }
+     
+        aside {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+          margin: 20px;
+        }
+        aside h3 {
+          width: 100%;
+          text-align: center;
+          color: #28a745;
+          margin-bottom: 10px;
+          font-size: 1.8rem;
+        }
+        aside img {
+          width: 300px;      
+          height: 200px;     
+          object-fit: cover; 
+          border: 2px solid #ccc;
+          border-radius: 8px;
+          transition: transform 0.3s ease;
+        }
+        aside img:hover {
+          transform: scale(1.05);
+        }
+      </style>
 </head>
 <body>
     <header>   
         <h1>Peliculas</h1>
         <nav>
-            <a href="index.html"> Inicio </a> 
+            <a href="index.html">Inicio</a>
         </nav>
         <nav>
             <a href="peliculas.html"> Peliculas </a>
@@ -21,10 +105,13 @@
             <a href="lugaresturisticos.html">Lugares Turisticos</a>
         </nav>
         <nav>
-            <a href="comida">restaurantes</a>
+            <a href="comida.html">restaurantes</a>
         </nav>
         <nav>
-            <a href="musica"> Musica o artistas favoritos</a>
+            <a href="musica.html"> Musicas</a>
+        </nav>
+        <nav>
+            <a href="formulario.html">Formulario</a>
         </nav>
     </header>
     <main>
