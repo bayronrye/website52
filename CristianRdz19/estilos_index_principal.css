@@ -1,0 +1,17 @@
+.titulo{
+    text-align: center;
+}
+
+.evidencia{
+    text-align: center;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+}
+
+.practica {
+    padding-left: 1em;
+    margin-bottom: 2em;
+    border-top-left-radius: 0.5em;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+  }
