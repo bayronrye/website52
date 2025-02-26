@@ -86,14 +86,14 @@ footer p {
     width: 300px;
 }
 
-.tarjetas, .tarjetas-info {
+.tarjetas, .tarjetas-largas {
     border: 2px black solid;
     background-color: aliceblue;
     border-radius: 10px;
     padding: 8px;
 }
 
-.tarjetas, .tarjetas-info {
+.tarjetas, .tarjetas-largas {
     transition: box-shadow 0.4s;
 }
 
