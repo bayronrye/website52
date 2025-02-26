@@ -89,3 +89,9 @@ aside-principal{
     text-align: center;
     
 }
+
+.bordes-sep{
+    border: 2px solid black;
+    border-radius: 5px; 
+    padding: 20px; 
+}
