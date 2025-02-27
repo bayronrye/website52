@@ -4,11 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        
+        a {
+            display: block;
+            margin: 10px 0;  
+            padding: 10px;
+            background-color: #aa0e0e;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a:hover {
+            background-color: #f0efef;
+        }
+
+        
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f6f6f6;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(44, 21, 21, 0.1);
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #705858;
+        }
+
+        form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #020202;
+            color: rgb(240, 240, 240);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #f82008;
+        }
+    </style>
 </head>
 <body>
     <h1>Mis evidencias</h1>
+    
+    
     <a href="hobbies.html">Primera Pagina de Pasatiempos</a>
     <a href="hobbies2.html">Segunda Pagina de Pasatiempos</a>
     <a href="../index.html">Home</a>
+
+    
+    <h2>Formulario de Contacto</h2>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="hobby">opiniones:</label>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
