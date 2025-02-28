@@ -10,7 +10,7 @@
     margin-bottom: 2em;
 }
 
-.titulo1{
+.titulo1{   /* Selector universal */
     text-align: center;
     background-color:crimson;
     color:white;
@@ -34,3 +34,55 @@
     color:black;
     border-radius: 5px;
 }
+
+/* Estilo de formulario */
+.bordes {
+    border: 3px dotted gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#s-universal *{     /* Selector por clase */
+    color:crimson;
+    font-size: 20px;
+}
+
+#s-id {     /* Selector por id */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: yellow; 
+    font-weight: bold;
+    font-style: italic; 
+    color: black; 
+}
+
+#s-tipo{    /* Selector por tipo */
+    border: 3px blue solid;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#s-tipo-clase h3.style { /* Selector por tipo clase */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 1px solid gold;
+    box-shadow: 5px 5px 5px gold;
+    text-align: center;
+}
+
+#s-lista li, #s-lista h3 {   /* Selector por lista (aqui me quede, intentaba meterlo en "series" */ 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: yellow; 
+    font-weight: bold;
+    font-style: italic; 
+    color: blue; 
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
