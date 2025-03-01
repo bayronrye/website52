@@ -1,0 +1,26 @@
+.contenedor{
+    border: 1px solid black;
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+#s-universal *{
+    color: blue;
+}
+
+#s-clase .grande {
+    font-size: 5px;
+}
+
+#s-id #div1{
+    color: green;
+}
+
+#s-tipo p{
+    border: 2px blue solid;
+}
+
+#s-tipo-clase p.info{
+    box-shadow: 5px 5px 5px gold;
+    border: 1px solid gold;
+}
