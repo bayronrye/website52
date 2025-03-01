@@ -2,8 +2,127 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musica</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        
+        header {
+            background-color: #292929;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #444;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+
+        
+        main {
+            padding: 20px;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        
+        aside {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        aside h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 1.1rem;
+        }
+
+        aside ul li a:hover {
+            color: #1abc9c;
+        }
+
+        
+        footer {
+            background-color: #252525;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,13 +137,12 @@
     </header>
     <main>
         <h2>Me encanta escuchar musica</h2>
-        <p>Los generos que mas escucho es las bandas de rock en español y bandas americanas de los 80s-90s.</p>
+        <p>Los generos que más escucho son las bandas de rock en español y bandas americanas de los 80s-90s.</p>
     </main>
     <aside>
         <h3>Musica Recomendada</h3>
         <ul>
             <li><a href="https://open.spotify.com/playlist/6KGciJcJ5lShN0Vj72ne6V/">Mi playlist</a></li>
-            
         </ul>
     </aside>
     <footer>
@@ -32,3 +150,4 @@
     </footer>
 </body>
 </html>
+
