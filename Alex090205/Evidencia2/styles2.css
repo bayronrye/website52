@@ -1,25 +1,25 @@
-/* Reset general */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo general del cuerpo */
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
 }
 
-/* Encabezado */
+
 #s-header {
     background: darkgoldenrod;
     color: white;
     padding: 20px;
 }
 
-/* Navegación */
+
 #s-nav {
     background: goldenrod;
     padding: 10px;
@@ -36,18 +36,18 @@ body {
     text-decoration: underline;
 }
 
-/* Secciones */
+
 #s-section {
     padding: 20px;
 }
 
-/* Contenedor de video */
+
 #s-video .video-container {
     margin: 20px auto;
     max-width: 560px;
 }
 
-/* Imágenes */
+
 #s-img img {
     max-width: 100%;
     height: auto;
@@ -55,7 +55,7 @@ body {
     border-radius: 10px;
 }
 
-/* Pie de página */
+
 #s-footer {
     background: darkgoldenrod;
     color: white;
