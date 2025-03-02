@@ -79,6 +79,10 @@
 p{
     color: blue;
 }
+/*selector de tag en articular */
+p.part{
+    color: green;
+}
 /*selector de id */
 #color-rojo{
     color: red;
