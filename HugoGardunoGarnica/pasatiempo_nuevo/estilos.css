@@ -87,3 +87,8 @@ p.part{
 #color-rojo{
     color: red;
 }
+
+/*selector por atributo */
+a[href$=".html"]{
+    color:gold;
+}
