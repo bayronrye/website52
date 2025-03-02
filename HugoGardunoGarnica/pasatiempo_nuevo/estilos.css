@@ -97,3 +97,7 @@ a[href$=".html"]{
 div a{
     color: green;
 }
+
+div > p{
+    background-color: green;
+}
