@@ -24,3 +24,19 @@
     box-shadow: 5px 5px 5px gold;
     border: 1px solid gold;
 }
+
+#s-lista ul {
+    text-transform:uppercase
+}
+
+#s-descendientes article *{
+    border-bottom: 2px dotted blue;
+}
+
+#s-hijos article > p{
+    background-color:red;
+}
+
+#s-hermano-ad article h2+p{
+    color: gold
+}
