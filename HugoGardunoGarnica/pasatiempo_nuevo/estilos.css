@@ -93,3 +93,7 @@ p.part{
 a[href$=".html"]{
     color:gold;
 }
+/*selector descendiente */
+div a{
+    color: green;
+}
