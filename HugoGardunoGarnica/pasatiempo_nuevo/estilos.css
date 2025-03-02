@@ -74,6 +74,11 @@
     text-align: center;
 }
 
+/*selector de tipo */
 p{
     color: blue;
+}
+/*selector de id */
+#color-rojo{
+    color: red;
 }
