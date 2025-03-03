@@ -1,0 +1,24 @@
+.outline{
+    outline: 1px solid red;
+    text-align: center;
+}
+
+p.outline{
+    outline: 1px solid green;
+}
+
+header ~ h2,
+header ~ h3,
+header ~ h4,
+header ~ h5 {
+  background-color: purple;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: white;
+}
+
+header + video {
+    border: 5px solid green;
+    border-radius: 10px;
+  }
