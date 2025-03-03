@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./formulario.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <form action="">
+    <h1>Formulario</h1>
+
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+    </div>
+
+    <div>
+      <label for="colorfav">Color favorito:</label>
+      <input type="color" name="colorfav" id="colorfav">
+    </div>
+
+    <div>
+      <label for="fecha">Fecha nacimiento:</label>      
+      <input type="date" name="fecha" id="fecha">
+    </div>
+
+    <div> 
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" id="edad">
+    </div>
+
+    <div>
+      <label for="redsocialfav">Red social favorita:</label>
+      <select name="redsocialfav" id="redsocialfav">
+        <option value="1">Facebook</option>
+        <option value="2">Instagram</option>
+        <option value="3">Reddit</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="foto">Foto 8 años:</label>
+      <input type="file" name="foto" id="foto">
+    </div>
+
+    <div>
+      <label for="clave">Contraseña:</label>
+      <input type="password" name="clave" id="clave">
+    </div>
+
+    <div>
+      <input type="submit" value="Guardar">
+    </div>
+  </form>
+</body>
+</html>
