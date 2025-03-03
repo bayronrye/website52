@@ -40,3 +40,29 @@
 #s-hermano-ad article h2+p{
     color: gold
 }
+
+#s-lista ul li:nth-child(odd) {
+    background-color: blue;
+}
+
+#s-lista ul li:nth-child(even) {
+    background-color:red;
+}
+
+.imagen:hover {
+    background-color: gold;
+    border: 1px solid green;
+}
+
+#desc p::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#s-tipo.primera ~ article {
+    border: 2px dotted blue;
+}
+
+#desc p::first-line {
+    background-color: greenyellow;
+}
