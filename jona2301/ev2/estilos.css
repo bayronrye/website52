@@ -1,0 +1,38 @@
+header{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: black;
+}
+
+body{
+    font-family: 'Courier New', monospace;
+}
+
+/*selector de clase*/
+.contenedor{
+    color: black;
+    background-color: white;
+}
+
+/* selector de id */
+.contenedor tabla{
+    color: white;
+    background-color: black;
+}
+/* selector universal */
+
+
+/* selector de clase especifico */
+
+
+/* selector de tipo */
+
+/* selector de lista */
+
+
+/* selector de descendientes */
+
+
+/* hijos directos */
+
+/* selector de hermano mayor */
+
