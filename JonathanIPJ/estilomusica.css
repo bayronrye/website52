@@ -1,0 +1,20 @@
+
+li[data-genero="regional-mexicano"] {
+    background-color: yellow;
+  }
+  
+  li[data-genero="rock"] {
+    background-color: red;
+  }
+  
+  li[data-genero="rap"] {
+    background-color: bisque;
+  }
+
+  dt {
+    border: 10px solid greenyellow;
+  }
+
+  h1.Importante{
+    background-color: blueviolet;
+  } 
