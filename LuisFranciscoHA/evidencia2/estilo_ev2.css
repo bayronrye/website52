@@ -1,0 +1,104 @@
+/*Selector de clase*/
+.color1{
+    background-color: gray;
+}
+.color2{
+    background-color: rgb(168, 184, 184);
+}
+.borde{
+    border-collapse: collapse;
+    width: 550px;
+}
+/*Selector de lista*/
+.borde th,.borde td{
+    border: 1px ridge black;
+    text-align: center;
+}
+.centrar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mover{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 25px;
+
+}
+
+.posicionar{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    text-align: center;
+}
+
+.formato{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.posicionar2{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+}
+
+.tamano{
+    width: 120px;
+    height: auto; 
+}
+
+.posicionar3{
+    position: absolute;
+    top: 275px;
+    left: 150px;
+    text-align: center;
+}
+
+.posicionar4{
+    position: absolute;
+    top: 450px;
+    left: 25px;
+}
+
+.posicionar5{
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    text-align: center;
+}
+
+/*selector de tipo */
+p{
+    color: blue;
+}
+/*selector de tag en articular */
+p.part{
+    color: green;
+}
+/*selector de id */
+#color-rojo{
+    color: red;
+}
+
+/*selector por atributo */
+a[href$=".html"]{
+    color:gold;
+}
+/*selector descendiente */
+div a{
+    color: green;
+}
+
+div > p{
+    background-color: green;
+}
+
