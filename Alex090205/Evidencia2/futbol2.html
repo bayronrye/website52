@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <header id="s-header">
+        <h1>Fútbol</h1>
+    </header>
+
+    <section id="s-section">
+        <p>Me gusta mucho ver el fútbol, mi equipo favorito son los Rayados de Monterrey, por lo tanto esta sección es acerca de ellos</p>
+        
+        <figure id="s-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzxodY_S0ytLaFn0Ax1tuoYPXpSCvGtosYiw&s" 
+            alt="Escudo de Rayados de Monterrey" width="200">
+            <figcaption>Escudo oficial de Rayados de Monterrey</figcaption>
+        </figure>
+    </section>
+
+    <section id="s-section">
+        <p>El Club de Fútbol Monterrey​ —coloquialmente conocido como «Rayados» o simplemente «Monterrey», abreviado como «C. F. Monterrey»— es un club de fútbol con sede en Monterrey, México. Fue fundado el 28 de junio de 1945 y disputa sus encuentros como local en el Estadio BBVA, con capacidad para 53 500 espectadores, está ubicado en Guadalupe, en la zona metropolitana de Monterrey.</p>
+    </section>
+
+    <section id="s-section">
+        <h2>Jugadores Destacados</h2>
+        <ul id="s-lista">
+            <li>Rogelio Funes Mori</li>
+            <li>Humberto "Chupete" Suazo</li>
+            <li>Aldo de Nigris</li>
+            <li>Jesús "Tecatito" Corona</li>
+        </ul>
+    </section>
+
+    <section id="s-section">
+        <h2>Palmarés</h2>
+        <table id="s-tabla" border="1">
+            <tr>
+                <th>Competencia</th>
+                <th>Número de Títulos</th>
+                <th>Año más reciente</th>
+            </tr>
+            <tr>
+                <td>Liga MX</td>
+                <td>5</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>Concachampions</td>
+                <td>5</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Copa MX</td>
+                <td>3</td>
+                <td>2020</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="s-video">
+        <h2>Final Apertura 2019</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bF0Ldivzy8s?si=ldwylfYtgdY0z-Pn" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="s-section">
+        <h1>Formulario (¿Cuál es tu equipo favorito?)</h1>
+        <form id="s-formulario" action="">
+
+            <div>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" name="Nombre" id="nombre">
+            </div>
+
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+
+            <div>
+                <label for="fecha">Fecha Nacimiento:</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+
+            <div>
+                <label for="equipofav">Equipo favorito:</label>
+                <select name="equipofav" id="equipofav">
+                    <option value="Rayados">Rayados</option>
+                    <option value="Tigres">Tigres</option>
+                    <option value="America">América</option>
+                    <option value="Cruz Azul">Cruz Azul</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="colorfav">Color de tu equipo favorito:</label>
+                <input type="color" name="colorfav" id="colorfav">
+            </div>
+
+            <div>
+                <label for="foto">Foto con tu playera de tu equipo:</label>
+                <input type="file" name="foto" id="foto">
+            </div>
+
+            <div>
+                <input type="submit" value="Guardar">
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="s-footer">
+        <p>&copy; 2025 Alejandro</p>
+    </footer>
+
+</body>
+</html>

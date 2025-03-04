@@ -1,10 +1,26 @@
-header {
+#encabezado-08 {
     text-align: center;
     background-color: cadetblue;
     color: white;
+    padding: 5px;
 }
 
+#paginas {
+    text-align: center;
+    margin: 20px;
+}
 
+.pagina {
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    transition: background-color 0.6s;
+}
+
+.pagina:hover {
+    background-color: rgb(49, 100, 195);
+}
 #a08 {
     background-color: cornflowerblue;
     padding: 5px;
@@ -18,4 +34,87 @@ header {
 
 #a08 a:hover {
     color:brown;
+}
+
+#evidencia-1 {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 10px 10px 30px 10px;
+}
+
+#evidencia-2 {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.practica {
+    margin: 10px;
+    width: 600px;
+    border: 2px black solid;
+    background-color: rgba(207, 220, 245, 0.616);
+    border-radius: 10px;
+    transition: box-shadow 0.4s;
+}
+
+.practica:hover {
+    box-shadow: 0 8px 10px rgba(32, 32, 32, 0.415);
+}
+
+.advertencia {
+    text-align: center;
+    font-size: 60px;
+    color:red;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.titulo-evidencia {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.enlace-practica {
+    display: block;
+    color:rgb(25, 14, 231);
+    transition: color 0.3s ease;
+}
+.enlace-practica:hover{
+    color:rgb(249, 11, 11);
+}
+.enlace-practica:active{
+    color:brown;
+}
+.practica .titulo-practica {
+    background-color: rgba(137, 43, 226, 0.682);
+    padding: 10px;
+    margin: 0px;
+    color:white;
+    border-radius: 10px 10px 0px 0px;
+}
+.practica .contenido-practica{
+    padding: 5px 10px 10px 10px;
+}
+
+.fecha {
+    background-color: rgb(207, 220, 245);
+    padding: 5px;
+}
+
+.titulo-practica{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+#pie-pagina {
+    margin: 20px 0px 0px 0px;
+    background-color: #333f50f5;
+    padding: 1.2%;
+    color: white;
+    text-align: center;
 }

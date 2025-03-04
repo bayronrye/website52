@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .galeria img, .galeria video, .galeria audio, .galeria iframe {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background: #333;
+            color: white;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        aside {
+            margin-top: 10px;
+        }
+        aside ul {
+            padding: 0;
+            list-style: none;
+        }
+        aside ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Hobbies</h1>
+        <p>Descubre más sobre mis <strong>pasatiempos favoritos</strong>.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="musica.html">Música</a></li>
+            <li><a href="cine.html">Cine</a></li>
+            <li><a href="lectura.html">Lectura</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Bienvenido a mi espacio de pasatiempos</h2>
+        <p>Aquí puedes conocer más sobre mis intereses en la <em>música</em>, el <mark>cine</mark> y la <small>lectura</small>.</p>
+        
+        <h3>Galería</h3>
+        <div class="galeria">
+            <img src="media/imagenPasatiempos.jpg" alt="me representa" width="300">
+            <p>Esta foto es como la mezcla de mis pasatiempos juntos</p>
+            
+            <video controls width="300">
+                <source src="media/videoPasatiempos.mp4" type="video/mp4">
+            </video>
+            <p>Literalmente yo:</p>
+            
+            <audio controls>
+                <source src="media/cancionFav.mp3" type="audio/mp3">
+            </audio>
+            <p>Mi canción favorita</p>
+            
+            <a href="https://www.youtube.com/watch?v=fdXQucDOed8" target="_blank">Aquí el video de mi canción favorita en vivo</a>
+        </div>
+        
+        <h3>Tabla de Preferencias</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobby</th>
+                    <th>Género Favorito</th>
+                    <th>Tiempo Dedicado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Música</td>
+                    <td>Indie</td>
+                    <td>Tiempo indefinido (es mucho)</td>
+                </tr>
+                <tr>
+                    <td>Cine</td>
+                    <td>Drama-experimental</td>
+                    <td>4 películas/semana aprox</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>Página hecha por: Víctor Demian Uriegas Arvizu</p>
+        <aside>
+            <h4>Puedes seguirme aquí</h4>
+            <ul>
+                <li><a href="https://www.instagram.com/demianarv/" style="color: lightblue;">Instagram</a></li>
+            </ul>
+        </aside>
+    </footer>
+</body>
+</html>

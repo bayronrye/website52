@@ -1,89 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulario</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: black;
-                color: white;
-                padding: 20px;
-            }
-            .container {
-                display: flex;
-                justify-content: space-between;
-            }
-            .main-content {
-                flex: 2;
-                padding-right: 20px;
-            }
-            .sidebar {
-                flex: 1;
-                background-color: #333;
-                padding: 15px;
-                border-radius: 10px;
-                text-align: center;
-            }
-            .music-list img {
-                width: 100px;
-                height: auto;
-                margin-top: 10px;
-                border-radius: 5px;
-            }
-            .separator {
-                border-bottom: 1px solid white;
-                margin: 10px 0;
-            }
-        </style>
-    </head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: gray;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
 
-    <body>
+    <h1>Formulario</h1>
 
-        <h2>Formulario de Opinión</h2>
-    
-        <form action="procesar.php" method="post">
-            <!-- Pregunta 1: Nombre -->
-            <label for="nombre">¿Cómo te llamas?</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
-            <br><br>
-    
-            <!-- Pregunta 2: Fecha de nacimiento -->
-            <label for="fecha">Pon tu fecha de nacimiento</label>
-            <input type="date" id="fecha" name="fecha" required>
-            <br><br>
-    
-            <!-- Pregunta 3: Color favorito -->
-            <label for="color">¿Cuál es tu color favorito?</label>
-            <input type="color" id="color" name="color">
-            <br><br>
-    
-            <!-- Pregunta 4: Subir un meme -->
-            <label for="meme">Sube tu meme favorito</label>
-            <input type="file" id="meme" name="meme" accept="image/*">
-            <br><br>
-    
-            <!-- Pregunta 5: Opinión de la página -->
-            <label for="opinion">¿Qué te pareció mi página?</label>
-            <select id="opinion" name="opinion">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
-            <br><br>
-    
-            <!-- Botón para enviar el formulario -->
-            <button type="submit">Enviar</button>
-        </form>
-    
-    </body>
-    
+    <table>
+        <tr>
+            <th>Pregunta</th>
+            <th>Respuesta</th>
+        </tr>
+        <tr>
+            <td>¿Cómo te llamas?</td>
+            <td><input type="text" name="nombre" placeholder="Escribe tu nombre"></td>
+        </tr>
+        <tr>
+            <td>Pon tu fecha de nacimiento</td>
+            <td><input type="date" name="fecha_nacimiento"></td>
+        </tr>
+        <tr>
+            <td>¿Cuál es tu color favorito?</td>
+            <td><input type="color" name="color_favorito"></td>
+        </tr>
+        <tr>
+            <td>Sube tu meme favorito</td>
+            <td><input type="file" name="meme"></td>
+        </tr>
+        <tr>
+            <td>¿Qué te pareció mi página?</td>
+            <td>
+                <select name="opinión">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">Enviar</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
 </html>
