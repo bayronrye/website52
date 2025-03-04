@@ -2,9 +2,66 @@
   list-style-type: "★ ";
 }
 
-
 #a38 a {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
   text-decoration: none;
   color: darkorange;
+}
+
+#body {
+    font-family: Helvetica, Arial, Lucida, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#encabezado {
+  color: rgb(82, 82, 248);
+  font-family: Calibre, Helvetica, Arial, Lucida Grande, sans-serif;
+  text-align: center;
+}
+
+nav, ul, li, a {
+  text-decoration: none;
+}
+
+#hobbies {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin: auto;
+  width: max-content;
+}
+
+li {
+  margin-top: 5px;
+}
+
+#hobbies > li {
+  list-style-type: none;
+  background-color: rgb(156, 247, 247);
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block; /* Para que se alineen como botones */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: background 0.3s;
+}
+
+.practica {
+  padding-left: 1em;
+  margin-bottom: 2em;
+  border-top-left-radius: 0.3em;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+article {
+  display: block;
+  unicode-bidi: isolate;
 }

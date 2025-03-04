@@ -47,24 +47,30 @@
         img{
             width: 280px;
             height: 320px;
+            border-radius: 10px;
         }
         .canciones{
-            display:flex;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
             align-items: center;
+            gap: 20px;
+        }        
+        .canciones p{
+            margin-left: 10px;
+            margin-right: 100px;
+            text-align: center;
         }
-        .canciones li{
-            margin-left: 100px;    
+        .canciones ul{
+            margin-left: 80px;
         }
         .cancionestitulo{
             display: flex;
             align-items: center;
-        }
-        .cancionestitulo h4{
-            margin: auto;
+            justify-content: space-between;
         }
         main{
-            margin-left: 200px;
-            margin-right: 200px;
+            margin-left: 100px;
+            margin-right: 100px;
         }
     </style>
 </head>
@@ -79,22 +85,25 @@
             <header>
                 <h3 class="subtitulos">Artistas favoritos</h3>
             </header>
-            <p class="txtcentrado">En cuanto a mis artistas favoritos yo consideraré solo a 5 para no hacer una lista tan larga. En esta incluire desde solistas hasta grupos y no tendrán un género en especifico. Por último esta lista esta basada en mi <strong>Spotify rewind</strong> del año pasado.</p>
+            <p class="txtcentrado">En cuanto a mis artistas favoritos yo consideraré solo a 6 para no hacer una lista tan larga. En esta incluire desde solistas hasta grupos y no tendrán un género en especifico. Por último esta lista esta basada en mi <strong>Spotify rewind</strong> del año pasado.</p>
             <ol>
                 <div class="cancionestitulo">
-                <li>Siddhartha</li>
-                <h4>Canciones favoritas del artista</h4>
+                    <h4>Artista</h4>
+                    <h4>Descripción del artista</h4>
+                    <h4>Canciones favoritas del artista</h4>
                 </div>
+                <li>Siddhartha</li>
                 <div class="canciones">
                     <figure>
                         <img src="https://ca-times.brightspotcdn.com/dims4/default/37ea625/2147483647/strip/true/crop/6720x4479+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc4%2F9d%2F3c970f5e4396ba7d8d1a29efdc8f%2Fsid.jpg" alt="Siddhartha">
                     </figure>
+                    <p>Siddhartha es un músico, cantante y compositor mexicano que inició su carrera en solitario en 2007, tras haber sido baterista de la banda Zoé. Su estilo musical mezcla rock alternativo, indie rock y pop con letras introspectivas y melancólicas.</p>
                     <ul>
-                        <li><a href="https://www.youtube.com/watch?v=ZarEe39WOYY">Pelicula</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=mfhIs1lABqg">Buscandote</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=QoB5Gpq44OM">Respiro</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=eJwXivMnxcY">00:00</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=drhRI2mpvo8">Cada vez que vuelvas</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=ZarEe39WOYY" target="_blank">Pelicula</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=mfhIs1lABqg" target="_blank">Buscandote</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=QoB5Gpq44OM" target="_blank">Respiro</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=eJwXivMnxcY" target="_blank">00:00</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=drhRI2mpvo8" target="_blank">Cada vez que vuelvas</a></li>
                     </ul>
                 </div>
                 <li>Ghost</li>
@@ -102,24 +111,70 @@
                     <figure>
                         <img src="https://cdn-images.dzcdn.net/images/artist/4cfad4049e78f8055bb8b5c413bb7c83/1900x1900-000000-80-0-0.jpg" alt="Ghost">
                     </figure>
+                    <p>Ghost es una banda sueca de heavy metal formada en 2006 en Linköping, Suecia. Su música combina hard rock, heavy metal y elementos de rock progresivo, con una estética teatral inspirada en el ocultismo y el horror clásico. <br> La banda es liderada por Tobias Forge, quien interpreta a "Papa Emeritus" o "Cardinal Copia", mientras que los demás miembros son los Nameless Ghouls, cuyo rostro permanece oculto.</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=7Gr63DiEUxw" target="_blank">Dancce Macabre</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=DD2m_iqD7dI" target="_blank">Call Me Little Sunshine</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=VqoyKzgkqR4" target="_blank">Square Hammer</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=xUSf1bjd4I8" target="_blank">Life Eternal</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=NmxFxBiCrL4" target="_blank">Mary On A Cross</a></li>
+                    </ul>
                 </div>
                 <li>Maneskin</li>
                 <div class="canciones">
                     <figure>
                         <img src="https://i.scdn.co/image/ab6761610000e5eb46d0db8a86fda630ec12401f" alt="Maneskin">
                     </figure>
+                    <p>Måneskin es una banda italiana de rock formada en 2016 en Roma. Su estilo combina rock alternativo, glam rock y hard rock, con influencias del funk y el punk. La banda está integrada por Damiano David (voz), Victoria De Angelis (bajo), Thomas Raggi (guitarra) y Ethan Torchio (batería).</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=odWKEfp2QMY" target="_blank">THE LONELIEST</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=HZnNt9nnEhw" target="_blank">HONEY (ARE U COMING?)</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=CmMO42bOTZ4" target="_blank">CORALINE </a></li>
+                        <li><a href="https://www.youtube.com/watch?v=ZZjnfWx0cvw" target="_blank">Torna a casa</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Z8NiouNEivo" target="_blank">Baby Said</a></li>
+                    </ul>
                 </div>  
                 <li>Don Omar</li>
                 <div class="canciones">
                     <figure>
                         <img src="https://m.media-amazon.com/images/I/51rlje9zHXL._AC_UF894,1000_QL80_.jpg" alt="Don Omar">
                     </figure>
+                    <p>Don Omar es un cantante, compositor y productor puertorriqueño de reguetón y música urbana. Nació en 1978 y debutó como solista en 2003 con el álbum The Last Don, que lo convirtió en una de las figuras más influyentes del género. <br> Su disco King of Kings (2006) rompió récords de ventas y consolidó su título como el <strong>"Rey del Reguetón"</strong>.</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=Z-3su2ov8Vg" target="_blank">Salio el sol</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=vRBgZ4aMPio" target="_blank">Diva virtual</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=zODmu06pqvg" target="_blank">Dile </a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Lg_Pn45gyMs" target="_blank">Ella y yo</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=lRWqYR3e7xE" target="_blank">Taboo</a></li>
+                    </ul>
                 </div>
                 <li>Elias Medina</li>
                 <div class="canciones">
                     <figure>
                         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4Y-SRWxLUEb4_gSsoIcWbUeD8-nhYEkEqsc3QIqSt4vXJ6JLaq_9wiCEH8mviVIXoj5epmNLB-KKxZv0XElu65XnFUFRJQKpLSEESTXL8cyOKksqnHLWObx1f3S4TQXcUQ1eoiB0564w/s1600/Elias-Medina-Compositor.jpg" alt="Elias">
                     </figure>
+                    <p>Elías Medina es un cantante, compositor y músico mexicano originario de Monterrey, Nuevo León. Su estilo combina regional mexicano, norteño y banda, destacándose principalmente como compositor de éxitos para otros artistas. Elías es ahora autor de canciones de grandes artistas y grupos como: Pesado, Zaino, Tatiana, Cardenales De Nl, La Leyenda, El Chapo De Sinaloa, Bronco, Torrente, El Plan, El Chalinillo, Lalo Mora, Banda Astilleros, Leandro Rios, Costumbre ...<br> <strong>Es el mejor cantante mexicano en la actualidad</strong></p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=jUupW40NUOw" target="_blank">Que no se entere</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=c-zvex-BWA0&pp=ygUMRWxpYXMgbWVkaW5h" target="_blank">La del pendejo</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=exWuPeDX2Jk&pp=ygUMRWxpYXMgbWVkaW5h" target="_blank">Botes y Boleros </a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Ay0PevrLajE&pp=ygUMRWxpYXMgbWVkaW5h" target="_blank">Quiero que seas feliz</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=UPzKsfP921E" target="_blank">Perro de rancho</a></li>
+                    </ul>
+                </div>
+                <li>(G)-Idle</li>
+                <div class="canciones">
+                    <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0469/3927/5428/files/Bildschirmfoto_2024-01-08_um_13.44.42.png?v=1704718076" alt="(G)-idle">
+                    </figure>
+                    <p>(G)I-DLE es un grupo femenino de K-pop formado por Cube Entertainment en 2018. La agrupación se distingue por su versatilidad musical, fusionando pop, hip-hop y música electrónica con un estilo único y fuerte identidad artística.</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=Jh4QFaPmdss" target="_blank">Tomboy</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=fCO7f0SmrDc" target="_blank">Nxde</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=OKNXn2qCEws" target="_blank">Han (HANN (Alone))</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=6oanIo_2Z4Q" target="_blank">Lion</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=om3n2ni8luE" target="_blank">Oh my God</a></li>
+                    </ul>
                 </div>
             </ol>
         </article>
