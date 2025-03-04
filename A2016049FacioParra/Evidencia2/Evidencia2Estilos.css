@@ -1,0 +1,51 @@
+/* Estilo para los enlaces */
+a {
+    color: rgb(215, 254, 17) !important;
+}
+
+/* Estilos para las tablas con la clase 'borde' */
+.borde th, .borde td {
+    border: 1px ridge rgb(241, 6, 6) !important;
+    text-align: center;
+}
+
+/* Estilo para los párrafos dentro de un div */
+div > p {
+    background-color: rgb(246, 5, 246);
+}
+
+/* Párrafos con la clase 'part' */
+p.part {
+    color: rgb(128, 0, 124) !important;
+}
+
+/* Párrafos con el id 'color-rojo' */
+#color-rojo {
+    color: red !important;
+}
+
+/* Fondo gris para los elementos con la clase 'color1' */
+.color1 {
+    background-color: gray !important;
+}
+
+/* Estilo para el primer párrafo después del h1 */
+h1 + p {
+    color: cyan !important;
+    font-weight: bold;
+}
+
+/* Estilo para todos los párrafos que siguen a un h1 */
+h1 ~ p {
+    color: orange !important;
+    font-style: italic;
+}
+
+/* Estilo para los párrafos dentro de un section */
+section > p {
+    color: blue;
+}
+
+section p {
+    color: green;
+}
