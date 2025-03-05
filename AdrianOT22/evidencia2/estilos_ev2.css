@@ -1,0 +1,62 @@
+/* Selector por clase */
+.contenedor {
+    border: 3px solid rgb(42, 116, 255);
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px rgb(215, 172, 255);
+    background-color: rgb(232, 247, 255);
+}
+
+/* Selector Universal */
+#s-universal * {
+    color: rgb(68, 0, 255);
+}
+
+/* Selector por descendientes */
+#s-id .esc_act {
+    color: rgb(189, 0, 0);
+}
+
+/* Selector por id */
+#s-id #color_prepa {
+    color: rgb(0, 179, 24);
+}
+
+/* Selector por tipo */
+#s-section_game header {
+    border: 2px rgb(5, 143, 0) solid;
+    background-color: rgb(187, 255, 223);
+}
+
+#s-section_dv header {
+    border: 2px rgb(189, 0, 0) dotted;
+    background-color: rgb(255, 199, 199);
+    color: rgb(0, 56, 161);
+}
+
+/* Selector por tipo clase especifica */
+#art_series_live ol.serie_fav {
+    border: 1px solid rgb(0, 140, 255);
+    box-shadow: 5px 5px 5px rgb(181, 221, 255);
+}
+
+/* Selector por lista */
+#list_series ol, #list_series ul, #list_series h2 {
+    text-transform: capitalize;
+}
+
+/* Selector por descendientes */
+#s-tabla ul * {
+    border-bottom: 2px dotted blueviolet;
+}
+
+/* Selector hijos directos */
+#list_series article > ol, .series_ani {
+    border: 1px solid rgb(0, 122, 16);
+    box-shadow: 5px 5px 5px rgb(164, 255, 179);
+}
+
+/* Selector hermano adyascente */
+#section_hermano header+p {
+    box-shadow: 5px 5px 5px rgb(181, 188, 255);
+}
