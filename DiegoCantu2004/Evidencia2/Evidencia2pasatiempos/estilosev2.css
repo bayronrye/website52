@@ -1,0 +1,23 @@
+.color1{
+    background-color:beige;
+}
+.color2{
+    background-color:blue;
+}
+.borde{
+    border-collapse:collapse;
+    width: 550px;
+}
+.borde th,.borde td{
+    border: 1px ridge yellow;
+    text-align: center;
+}
+.centrar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
