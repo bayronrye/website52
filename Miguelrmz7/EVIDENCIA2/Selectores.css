@@ -1,0 +1,10 @@
+#s1 table td{
+    background-color: gray; 
+}
+#s2 p::first-letter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+#s3 p::first-line{
+    background-color: gold;
+}
