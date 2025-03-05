@@ -45,6 +45,10 @@
             text-align: center;
             font-style: italic;
         }
+        #introduccion::first-letter{
+            font-size: xx-large;
+            color: brown;
+        }
         p.series{
             background-color: rgb(184, 169, 148);
             border-radius: 5px;
@@ -84,17 +88,24 @@
             font-size: x-large;
             color: rgb(56, 78, 56);
         }
-        section ~ p {
+        section ~ h3 {
             text-decoration: underline;
             text-align: center;
             color: rgb(56, 78, 56);
             background-color: rgb(220, 221, 212);
         }
-        p + h4{
+        h3 + h4{
             text-align: center;
             color: rgb(92, 22, 70);
             font-weight: bold;
             font-size: xx-large;
+        }
+        .ranking{
+            background-color: bisque;
+        }
+        p.ranking{
+            font-weight: bolder;
+            text-align: center;
         }
     </style>
 </head>
@@ -201,7 +212,8 @@
                     </div>
                 </ul>
             </section>
-            <p>Breve ranking de las peliculas</p>
+            <h3>Breve ranking de las peliculas</h3>
+            <p class="ranking">En este apartado de la página mencionaré ahora si el ranking en que estas las peliculas, el primer lugar será mi favorita.</p>
             <h4>Gracias por leer mi página web para series y peliculas. Espero haya sido de tu agrado.</h4>
         </article>
     </main>
