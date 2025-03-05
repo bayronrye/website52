@@ -34,7 +34,7 @@ h2 + p {
     color: #2980b9;
 }
 
-/* Selector de Hermano General (opcional, pero útil) */
+/* Selector de Hermano General */
 h2 ~ p {
     color: #8e44ad;
 }
