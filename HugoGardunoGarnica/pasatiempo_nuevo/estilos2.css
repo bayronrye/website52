@@ -1,0 +1,7 @@
+/* selector adyacente*/
+.color{
+    color: red;
+}
+.color + p {
+    border: 2px solid orange;
+}
