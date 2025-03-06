@@ -103,7 +103,7 @@
 }
 
 
-* img {                              /* Selector Universal */
+* img {    /* Selector Universal */
     width: 100%;
     max-width: 700px; 
     height: auto; 
@@ -156,6 +156,14 @@
     text-align: center;
 }
 
+a[href*="instagram"] {  /* Selector por atributo */
+    background-color: rgb(52, 73, 94);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
 #s-descendientes figure * {   /* Selector por descendientes */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -176,7 +184,7 @@
     color: white;
 }
 
-#s-hijo-adyacente h2 + p {                        /* Selector por hermano adyacente */
+#s-hijo-adyacente h2 + p {  /* Selector por hermano adyacente */
     font-size: 28px;
     background-color: darkorange;
     border: black 2px solid;
@@ -190,14 +198,15 @@
     border-radius: 2px;
 }
 
-#s-tipo-clase h3.style { /* Selector por tipo clase */
+
+
+section ~ p {   /* Selector por hermano general */
     font-family: Arial, sans-serif;
     font-weight: bold;
     border: 1px solid gold;
     box-shadow: 5px 5px 5px gold;
     text-align: center;
-}
-
+} 
 
 
 .centrar { /* Mi selector para centrar */
@@ -214,7 +223,7 @@
     color:white;
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     border-top-left-radius: 0.7em;
     border-top: 3px solid black;
@@ -242,9 +251,20 @@
     color:white;
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
 }
 
+/* Pseudo Clases */
+a:hover {
+    background-color: rgb(231, 76, 60);
+    color: white;
+}
 
+/* Pseudo Elementos */
+h2::first-letter{
+    font-size:45px;
+    color: black;
+    font-weight: bold;
+}
 

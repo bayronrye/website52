@@ -34,7 +34,7 @@ p{
 }
 /* selector de lista */
 ul{
-    color: blue;
+    background-color: white;
 }
 
 /* selector de descendientes */
@@ -47,5 +47,4 @@ ol p{
 header > h1 {
     color: beige; 
     font-size: 30px; 
-/* selector de hermano mayor */
 }
