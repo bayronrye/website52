@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #a20dcf, #2C003E);
+    background: linear-gradient(to right, #127ee2, #062f64);
     color: #E3DFF2;
 }
 
@@ -19,7 +19,6 @@ button {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-bottom: 20px; 
   }
   
 button:hover {
@@ -28,9 +27,5 @@ button:hover {
 
 .tituloev {
     color: #ffffff;
-    text-align: center;
-}
-
-.botonesevidencia {
     text-align: center;
 }
