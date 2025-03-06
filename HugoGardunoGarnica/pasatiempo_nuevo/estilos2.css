@@ -22,3 +22,14 @@ a:active {
 a:visited {
     color: gray;
 }
+/* Esto agrega un icono de música después del título */
+h1::after {
+    content: " 🎶"; 
+    font-size: 30px;
+}
+
+/* Estilo para el contenido antes de los párrafos con la clase .color */
+h1::before {
+    content: "📀 ";  
+    font-size: 20px;
+}
