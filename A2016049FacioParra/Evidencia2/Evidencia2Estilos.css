@@ -1,194 +1,142 @@
-/* Estilos globales */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+* {
     margin: 0;
     padding: 0;
-    color: #333;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-h1, h2 {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-h1 {
-    font-size: 36px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-/* Estilos para el main y contenido */
-main {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul li {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-blockquote {
-    font-style: italic;
-    background-color: #f0f0f0;
-    border-left: 5px solid #333;
-    padding: 10px;
-    margin: 20px 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 p {
+    margin-bottom: 20px; 
+}        
+
+body {
+    background: linear-gradient(to right, #0f2027, #11485a, #2c5364);
+    color: rgb(51, 5, 5);
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
     font-size: 16px;
-    margin: 15px 0;
-}
-
-figure {
-    text-align: center;
-    margin: 20px 0;
-}
-
-footer hr {
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
-}
-
-/* Estilos para la tabla */
-table {
-    width: 100%;    
-    border-collapse: collapse; 
-    margin: 20px 0;
-    background-color: #fff; 
-}
-
-th, td {
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: #4CAF50;
-    color: white;
-    text-transform: uppercase;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #f9f9f9; 
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #f1f1f1;
-}
-
-tbody tr:hover {
-    background-color: #ddd; 
-    cursor: pointer;
-}
-
-td {
-    font-size: 18px;
-    color: #333; 
-}
-
-table caption {
-    font-size: 24px;
     font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+nav a {
+    color: rgb(65, 27, 27);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.contenedor article p {
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid rgb(122, 35, 35);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    max-width: 800px;
+}
+
+/* Selector de clase */
+#s-clase-tipo-2 {
+    font-size: 26px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid rgb(122, 35, 35);
+    border-radius: 10px;
+    color: #f0f8ff;
+    background-color: yellowgreen;
+}
+
+/* Selector de ID */
+#s-id {
+    font-size: 26px;
+    margin: 15px auto;
+    padding: 12px;
+    border: 2px solid rgb(230, 8, 8);
+    border-radius: 10px;
+    color: #f0f8ff;
+    background-color: rgb(187, 50, 205);
+}
+
+/* Selector universal */
+#s-universal * {
+    background-color: #11485a;
+    margin: 0%;
+    color: rgb(209, 27, 97);
+}
+
+/* Selector de clase especifica */
+#s-tipo-clase-especifica {
+ text-align: left;
+    background-color: #ff4f88; 
+    color: #f0f8ff; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    font-weight: 300;
+}
+
+#s-tipo-clase-1 {
+    text-align: left;
+    background-color: #80052c; 
+    color: #f0f8ff; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    font-weight: 300;
+}
+
+/* Selector de tipo etiqueta */
+#s-tipo-etiqueta p, 
+#s-tipo-etiqueta div, 
+#s-tipo-etiqueta h3 {
+    text-align: left;
+    background-color: #ff4f88;
+    color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 
-/* Estilos de links (Regreso) */
-a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #333;
-    padding: 5px 10px;
+
+/* Selector de lista */
+#s-musica li {
+    text-transform: uppercase;
+    font: medium;
+    color: aqua;
+    background-color: #2c5364;
 }
 
-/* Párrafos con id o clase específica */
-#a14 {
-    background-color: rgba(125, 247, 247, 0.719);
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Selector de descendientes */
+#s-musica-descendiente {
+    border-bottom: 2px dotted rgb(122, 11, 11);
+    border: 2px solid red;
+    font-size: medium;
+    padding: 4px ;
+    background-color: #ff4f88;
 }
 
-/* Estilos para los enlaces dentro de div */
-div a {
-    color: rgb(215, 254, 17) !important;
+/* Selector de hijos directos*/
+.contenedor > article {
+    border: 2px solid red;
+    font-size: medium;
+    padding: 4px ;
+    color: darkmagenta;
 }
 
-/* Estilos para las tablas con la clase 'borde' */
-.borde th, .borde td {
-    border: 1px ridge rgb(241, 6, 6) !important;
-    text-align: center;
+#s-descubrimientos {
+    border: 2px solid rgb(60, 255, 0);
+    font-size: medium;
+    padding: 4px ;
+    background-color: #ff4f88;
 }
 
-/* Estilo para los párrafos dentro de un div */
-div > p {
-    background-color: rgb(246, 5, 246);
-}
-
-/* Párrafos con la clase 'part' */
-p.part {
-    color: rgb(128, 0, 124) !important;
-}
-
-/* Párrafos con el id 'color-rojo' */
-#color-rojo {
-    color: red !important;
-}
-
-/* Fondo gris para los elementos con la clase 'color1' */
-.color1 {
-    background-color: gray !important;
-}
-
-/* Estilo para el primer párrafo después del h1 */
-h1 + p {
-    color: cyan !important;
-    font-weight: bold;
-}
-
-/* Estilo para todos los párrafos que siguen a un h1 */
-h1 ~ p {
-    color: orange !important;
-    font-style: italic;
-}
-
-/* Estilo para los párrafos dentro de un section */
-section > p {
-    color: blue;
-}
-
-section p {
-    color: green;
-}
-
-/* Estilos para pre con la clase 'negritas' */
-pre.negritas {
-    font-weight: bold;
-}
-
-/* _____________________________________________________________ */
