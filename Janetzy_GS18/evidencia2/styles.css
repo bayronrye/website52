@@ -1,0 +1,59 @@
+/*Selector universal */
+* {
+    font-family: sans-serif;
+}
+
+/*Selector por clase */
+.estetica{background-color:#091581;
+    font-family: monospace; 
+    color: white;
+    text-align: center;
+}
+
+/*Selector por id*/
+#s-id {
+    text-transform: uppercase;
+    color:blue; 
+    font-size: 20px
+}
+
+/*Selector por tipo*/
+h1, nav{margin:0;
+    padding:0;
+}
+
+nav {background-color: #091581;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+nav a:hover {text-decoration: underline;
+}
+
+/*Selector por tipo clase especifica*/
+p.s-tipo-clase {
+    text-align: center;
+}
+/*Selector por lista*/
+#s-lista dt, #s-lista dd {
+    color: #3c3c42;
+}
+
+/*Selector por descendientes*/
+
+
+/*Selector por hijos directos*/
+
+
+/*Selector hermano adyascente*/
+
+
+
+

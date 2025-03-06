@@ -19,6 +19,7 @@ button {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-bottom: 20px; 
   }
   
 button:hover {
@@ -27,5 +28,9 @@ button:hover {
 
 .tituloev {
     color: #ffffff;
+    text-align: center;
+}
+
+.botonesevidencia {
     text-align: center;
 }
