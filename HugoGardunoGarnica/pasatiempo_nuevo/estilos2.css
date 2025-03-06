@@ -9,3 +9,16 @@
 h2 ~ audio {
     border: 2px solid green;
 }
+
+/* pseudo clase hover */
+a:hover {
+    color: blue;
+}
+/* pseudo clase active */
+a:active {
+    color: green;
+}
+/* pseudo clase visited */
+a:visited {
+    color: gray;
+}
