@@ -1,11 +1,11 @@
-
+/*Selector Universal*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/*Selector de tipo*/
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -13,17 +13,19 @@ body {
 }
 
 
-#s-header {
+header {
     background: darkgoldenrod;
     color: white;
     padding: 20px;
 }
 
 
+/*Selectores por id*/
 #s-nav {
     background: goldenrod;
     padding: 10px;
 }
+
 
 #s-nav a {
     color: white;
@@ -42,13 +44,20 @@ body {
     padding: 20px;
 }
 
-ul#s-lista li:first-child {
+/*Selector de clase y en particular*/
+p.texto-importante {
+    color: blue;
     font-weight: bold;
-    color: red;
 }
 
-h2 ~ p {
+
+/*Selector de descendientes e hijos directos*/
+section > p {
     color: goldenrod;
+}
+
+.primer-pelicula + li {
+    background-color: green;
 }
 
 
@@ -65,11 +74,30 @@ h2 ~ p {
     border-radius: 10px;
 }
 
-p::first-letter {
-    font-size: 2em;
-    font-weight: bold;
-    color: darkred;
+
+
+
+/*Selector de atributo*/
+input[type="text"] {
+    border: 2px solid green;
+    padding: 5px;
 }
+
+ /*Selector de lista*/
+h3, p, a {
+    font-family: 'Arial', sans-serif;
+    color:black;
+}
+
+/*Selector compuesto*/
+h1.letras-subrayadas {
+    background-color: lightyellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
 
 
 #s-footer {
