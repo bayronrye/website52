@@ -9,4 +9,8 @@
 h2 ~ audio {
     border: 2px solid green;
 }
-
+/*selector compuesto*/
+hr + p.color1 {
+    font-size: 20px;
+    font-weight: bold;
+}
