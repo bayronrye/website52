@@ -1,0 +1,42 @@
+        /* Selector universal */
+        *{
+            background-color: #000;       
+            color: #0f0;                  
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /*selector tipo*/
+        p{
+            color:aqua; 
+        } 
+        
+        /* Selector de clase */
+        .resaltado {
+            color: yellow;
+            font-weight: bold;
+        }
+
+        /* Selector de ID */
+        #especial {
+            background-color: blue;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Selector de descendientes */
+        nav a {
+            color: #0f0;
+            text-decoration: none;  
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Selector de hermanos adyacentes */
+        h2 + p {
+            font-style: italic;
+            color: #ff0;
+        }
