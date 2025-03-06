@@ -1,0 +1,104 @@
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de tipo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Selector de clase */
+.encabezado {
+    background-color: #454447;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Selector de ID */
+#username {
+    border: 1px solid #ddd;
+}
+
+/* Selector de atributo */
+a[href="https://www.youtube.com/"] {
+    color: red;
+}
+
+/* Selectores por atributo */
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+a[href*="facebook"] {
+    font-weight: bold;
+}
+
+/* Combinadores CSS */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav > a {
+    border-right: 1px solid white;
+}
+
+h2 + p {
+    font-size: 1.1em;
+}
+
+h2 ~ blockquote {
+    margin-top: 20px;
+}
+
+/* Pseudo-clases */
+nav a:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+input:checked + label {
+    color: green;
+}
+
+/* Pseudo-elementos */
+h1::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p::before {
+    content: ">> ";
+}
+
+/* Selector de tipo*/
+h1 {
+    font-size: 2em;
+}
+
+/* Selector de ID */
+#email {
+    background-color: #f0f0f0;
+}
+
+/* Selector de clase */
+.form-container {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
