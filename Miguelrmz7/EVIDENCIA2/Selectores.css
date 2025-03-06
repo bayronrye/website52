@@ -8,3 +8,12 @@
 #s3 p::first-line{
     background-color: gold;
 }
+
+
+header+h2 {
+    color: brown;
+}
+
+.Hijos p{
+    color: green;
+}
