@@ -1,5 +1,5 @@
-        /* Selector de tipo */
-        body {
+        /* Selector universal */
+        *{
             background-color: #000;       
             color: #0f0;                  
             font-family: Arial, sans-serif;
@@ -7,6 +7,11 @@
             padding: 0;
         }
 
+        /*selector tipo*/
+        p{
+            color:aqua; 
+        } 
+        
         /* Selector de clase */
         .resaltado {
             color: yellow;
@@ -15,7 +20,7 @@
 
         /* Selector de ID */
         #especial {
-            background-color: #222;
+            background-color: blue;
             padding: 10px;
             border-radius: 5px;
         }
@@ -23,7 +28,7 @@
         /* Selector de descendientes */
         nav a {
             color: #0f0;
-            text-decoration: none;
+            text-decoration: none;  
             font-weight: bold;
             margin: 0 10px;
             padding: 5px 10px;
