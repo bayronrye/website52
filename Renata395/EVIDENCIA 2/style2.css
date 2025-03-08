@@ -1,5 +1,5 @@
 .titulo:hover {
-    background-color: cornsilk;
+    background-color: lavenderblush;
     border: 1px solid darkgrey;
     border-radius: 5px;
 }
@@ -52,8 +52,12 @@
     color: blue;
 }
 
- #s-series div * :hover{
-    background-color: cornsilk;
-    border: 1px solid darkgrey;
-    border-radius: 5px;
+#s-ari h2 ~ p {
+    color: crimson;
+}
+
+#s-ari p::first-letter {
+    font-size: 2em;
+    color: crimson;
+    font-weight: bold;
 }
