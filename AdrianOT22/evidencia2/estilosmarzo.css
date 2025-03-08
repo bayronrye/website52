@@ -37,3 +37,30 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
 }
+
+p[lang="es"], p[lang="en"] {
+    background-color: aquamarine;
+}
+
+input[type="text"] {
+    background-color: black;
+    color:white
+}
+
+/* Que el lenguaje tenga la letra a*/
+p[lang*="a"] {
+    color: blue;
+}
+/* Que el lenguaje empiece con la letra a*/
+p[lang^="a"] {
+    color: blue;
+}
+/* Que el lenguaje finalice con la letra a*/
+p[lang$="a"] {
+    color: blue;
+}
+
+blockquote[cite*="wikipedia"] {
+    color:red;
+
+}
