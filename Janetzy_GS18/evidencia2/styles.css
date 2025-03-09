@@ -110,10 +110,15 @@ address *{
 }
 
 /*Selector por hijos directos*/
-
+dl>dt {
+    font-style:italic;
+}
 
 /*Selector hermano adyascente*/
-
+section header+p {
+    font-size: 12px;
+    border: white 1px solid;
+}
 
 
 
