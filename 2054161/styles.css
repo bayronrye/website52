@@ -1,0 +1,56 @@
+/* Selector tipo */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Selector class */
+.subtitulo {
+    font-size: 20px;
+    color: green;
+}
+
+/* Selector ID */
+#titulo-principal {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* Selector de descendientes */
+body p {
+    font-style: italic;
+}
+
+/* Selector de hermanos adyacentes  */
+.actividad + .actividad {
+    color: red;
+}
+
+/* Selector de hermano general */
+.subtitulo ~ .actividad {
+    background-color: lightgray;
+}
+
+
+.actividad:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Pseudo-clase */
+body p:first-child {
+    text-decoration: underline;
+}
+
+
+.actividad:last-child {
+    font-weight: bold;
+}
+
+/* Pseudo-elemento: */
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+}
+
