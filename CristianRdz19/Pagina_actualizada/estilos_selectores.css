@@ -49,11 +49,11 @@ p.outline {
     background-color: rgb(123, 169, 209) ;
 }
 
-/* SELECTOR POR ATRIBUTO FALTA */
-
-
-
-
+/* SELECTOR POR ATRIBUTO y PSEUDOCLASE */
+a[href]:hover {
+    color: red;
+    font-size: 25px;
+}
 
 
 
@@ -69,7 +69,13 @@ p.outline {
     border-radius: 10px;
 }
 
-
+/* SELECTOR COMPUESTO */
+h1.temaprincipal {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+}
 
 /* SELECTOR DE DESCENDIENTES */
 #s-descendientes article h2{
@@ -85,7 +91,15 @@ p.outline {
     background-color: cadetblue;
 }
 
-
+/* SELECTOR HERMANO GENERAL*/
+div.info ~ div {
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: rgb(123, 169, 209);
+    font-weight: bold;
+}
 
 /* SELECTOR HERMANO ADYACENTE*/
 .imagen-principal + div{
@@ -99,3 +113,23 @@ p.outline {
     font-size: 20px;
 }
 
+nav {
+    text-align: center; 
+    background-color: rgb(66, 184, 66); 
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* PSEUDOELEMENTO */
+dd::first-letter{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
